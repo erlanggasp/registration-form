@@ -1,0 +1,71 @@
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    margin: auto;
+    width: 30%;
+    height: 80%;
+    background-color:rgb(220, 220, 220);
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding:1%;
+    box-shadow: 5px 5px 5px;
+}
+
+.content {
+    width: 90%;
+    margin: auto;
+}
+
+.container .content .title {
+    margin  : 20px;
+}
+
+.content form {
+    display: flex;
+    flex-flow: column wrap;
+    width: 80%;
+    margin: auto;
+}
+
+.content form label {
+    margin: 5px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.content form input, select {
+    margin: 10px;
+    padding: 0 12px;
+    height: 30px;
+    border: none;
+}
+
+.content fieldset label {
+    padding: 0;
+    margin: 0;
+    font-weight: normal;
+}
+
+.content textarea {
+    border: none;
+    width: 85%;
+    margin: auto;
+    padding:  10px 12px;
+}
+
+ .content button {
+    padding: 2%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 60px;
+    height: 30px;
+    cursor: pointer;
+}
